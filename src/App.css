@@ -157,15 +157,26 @@ h6 {
 }
 /* end of navbar */
 /* Hero */
-.defaultHero,
+.defaultHero{
+  min-height: calc(100vh - 66px);
+  /* background: url("./images/defaultBg.jpg") center/cover no-repeat; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgVidContainer{
+  min-height: calc(100vh - 66px);
+  position: absolute;
+  z-index: -1;
+}
+
 .roomsHero {
   min-height: calc(100vh - 66px);
   background: url("./images/defaultBg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.roomsHero {
   background-image: url("./images/room-2.jpg");
   min-height: 70vh;
 }
