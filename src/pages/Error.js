@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Error = () => {
     return (
-        <Hero>
+        <Hero hero="notFoundHero">
             <Banner
                 title="404"
                 subtitle="PAGE NOT FOUND"

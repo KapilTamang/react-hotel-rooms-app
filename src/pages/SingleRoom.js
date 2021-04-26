@@ -7,6 +7,7 @@ import StyledHero from '../components/StyledHero';
 import { FaCheck } from 'react-icons/fa';
 import { HiBadgeCheck } from 'react-icons/hi';
 import Hero from '../components/Hero';
+import bgVid from '../videos/bgVid.mp4';
 
 export default class SingleRoom extends Component {
     constructor(props) {
@@ -22,7 +23,7 @@ export default class SingleRoom extends Component {
         const room = getRoom(this.state.slug);
         if (!room) {
             return (
-                <Hero>
+                <Hero hero="notFoundHero">
                     <Banner
                         title="404"
                         subtitle="NO SUCH ROOM COULD BE FOUND"

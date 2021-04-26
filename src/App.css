@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #F4511E;
+  --primaryColor: #f4511e;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -20,7 +20,7 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.4;
 }
 h1 {
@@ -157,15 +157,20 @@ h6 {
 }
 /* end of navbar */
 /* Hero */
-.defaultHero{
+.defaultHero {
   min-height: calc(100vh - 66px);
-  /* background: url("./images/defaultBg.jpg") center/cover no-repeat; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.bgVidContainer{
+.notFoundHero {
+  min-height: calc(100vh - 66px);
+  background: url("./images/defaultBg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bgVidContainer {
   min-height: calc(100vh - 66px);
   position: absolute;
   z-index: -1;
@@ -407,7 +412,7 @@ h6 {
 .desc p {
   line-height: 1.6;
 }
-.desc div{
+.desc div {
   width: 5rem;
   height: 4px;
   margin: 0.4rem 0;
@@ -422,7 +427,7 @@ h6 {
 .info h6 {
   font-weight: 300;
 }
-.info div{
+.info div {
   width: 2.8rem;
   height: 4px;
   margin: 0.4rem 0;
@@ -441,7 +446,7 @@ h6 {
   width: 2.8rem;
   height: 4px;
   margin: 0.4rem 0;
-  background: var(--primaryColor); 
+  background: var(--primaryColor);
 }
 .extras {
   list-style-type: none;
