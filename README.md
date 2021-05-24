@@ -10,4 +10,4 @@ Hotel Rooms App is a simple react application
 # Running the application
 - npm start
 
-Images from [Pexels.com](https://www.pexels.com/).
+Images from [Pexels.com](https://www.pexels.com/)
